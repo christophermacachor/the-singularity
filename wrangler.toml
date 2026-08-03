@@ -3,10 +3,9 @@ main = "src/index.js"
 compatibility_date = "2026-08-02"
 account_id = "743b8c88ff9d9d1a45b1d7a09cf786d0"
 
-# Custom domain route
+# Custom domain — exact domain only, no wildcards, no paths
 routes = [
-  { pattern = "absolute.macachor.org/*", custom_domain = true }
-  # Alternative: { pattern = "singularity.macachor.org/*", custom_domain = true }
+  { pattern = "absolute.macachor.org", custom_domain = true }
 ]
 
 [observability]
