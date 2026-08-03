@@ -1,0 +1,20 @@
+name: Mirror Sync to Quantum Memory
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Sync theorems to quantum-memory
+        run: |
+          # Clone quantum-memory
+          git clone https://github.com/macachor/quantum-memory.git
+          # Copy theorem files to quantum-memory archive
+          cp -r theorems/* quantum-memory/proofs/
+          # Copy publications to quantum-memory papers/
+          cp -r publications/* quantum-memory/papers/
+          echo "Sync complete. Canonical archive updated."
