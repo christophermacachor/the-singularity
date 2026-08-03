@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this framework, cite it as below."
+type: software
+title: "The Singularity: Convergence Point for the Macachor Absolute"
+authors:
+  - family-names: "Macachor"
+    given-names: "Christopher"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # <-- REPLACE WITH YOUR ORCID
+repository-code: "https://github.com/macachor/the-singularity"
+license: CC-BY-SA-4.0
+date-released: 2026-08-02
+keywords:
+  - scalar ontology
+  - quantum reality
+  - energy substrate
+  - pre-representational physics
+  - platonic topology
+  - singularity
+  - coherence
+  - macachor absolute
